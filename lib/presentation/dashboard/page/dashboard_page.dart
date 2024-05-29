@@ -77,7 +77,7 @@ class _DashboardPageState extends State<DashboardPage> {
                         )),
                     PopupMenuButton(
                         icon: Icon(Icons.sort, color: AppColor.primary,),
-                        iconColor: Colors.white,
+                        // iconColor: Colors.white,
                         itemBuilder: (context) {
                           return [
                             const PopupMenuItem(
